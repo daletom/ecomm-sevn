@@ -2,12 +2,12 @@
   "name": "server-side-signing-proof-of-concept",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server"
+    "start": "nodemon server.js"
   },
-  "author": "heyitsbryanm",
+  "author": "Tom Dale",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -16,7 +16,8 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "imgix-core-js": "^2.2.1",
-    "nodemon": "^2.0.2",
+    "imgix-management-js": "^1.0.0",
+    "nodemon": "^2.0.4",
     "path": "0.12.7"
   },
   "keywords": []

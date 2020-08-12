@@ -8,8 +8,8 @@ const sign_images = express.Router();
 var ImgixClient = require('imgix-core-js');
 
 var client = new ImgixClient({
-  domain: process.env.DOMAIN,
-  secureURLToken: process.env.SECURETOKEN
+  domain: "tom-proxy.imgix.net",
+  secureURLToken: "UeCnTaStKyB9Vrca"
 });
 
 sign_images.use(cors())
